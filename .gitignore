@@ -1,6 +1,4 @@
-﻿# Ignore all files in backend and frontend
-/backend/
-/frontend/
+﻿
 
 # If you want to keep certain files or folders, you can whitelist them like this:
 # !/backend/keepme.txt
@@ -8,6 +6,7 @@
 
 # Node.js related (if using Node/React)
 node_modules/
+/package-lock.json
 .env
 dist/
 build/
